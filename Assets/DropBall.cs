@@ -8,13 +8,13 @@ public class DropBall : MonoBehaviour
   public GameObject prefab; // makes a picker in the Inspector to drag in a prefab
   Rigidbody2D rb;
   Vector2 coinPos, prevPos;
-  Vector2 jalla;
   // Start is called before the first frame update
   void Start()
   {
 
-  rb = prefab.GetComponent<Rigidbody2D>();
-  rb.mass = 0.0f;
+    rb = prefab.GetComponent<Rigidbody2D>();
+    rb.mass = 0.0f;
+
   }
 
   // Update is called once per frame
@@ -27,7 +27,8 @@ public class DropBall : MonoBehaviour
       transform.position = coinPos;
     }
 
-  if (Input.GetButtonDown("Fire1"))
+
+    if (Input.GetButtonDown("Fire1"))
     {
       rb.mass = 1.0f;
       rb.freezeRotation = false;
@@ -35,9 +36,9 @@ public class DropBall : MonoBehaviour
       rb.angularVelocity = 0;
       print("pew pew");
     }
-  if (Input.GetButtonDown("Fire2"))
-        {
+    if (Input.GetButtonDown("Fire2"))
+    {
       rb.mass = 0.0f;
-        }
+    }
   }
 }

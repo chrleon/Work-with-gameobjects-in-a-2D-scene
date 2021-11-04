@@ -21,7 +21,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"/Users/ch/Jottacloud/projects/unity/Work with gameobjects in a 2D scene/WebGL Builds;;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"/Users/ch/dev/unity/Work with gameobjects in a 2D scene/WebGL Builds/pachincko;/Users/ch/dev/unity/Work with gameobjects in a 2D scene/WebGL Builds;/Users/ch/Jottacloud/projects/unity/Work with gameobjects in a 2D scene/WebGL Builds;;;;;;;\"}"
             }
         ]
     }
